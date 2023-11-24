@@ -292,6 +292,10 @@ body {
                 overflow: auto;
             }
 
+            #box10 {
+                width:100%;                   
+            }
+                    
             #logo {
                 width: 60vmin;
             }
