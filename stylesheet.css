@@ -204,6 +204,7 @@ body {
 
         #box10 {
             text-align: center;
+            width:100%;
         }
 
         #form {
@@ -290,10 +291,6 @@ body {
             /* Make the body scrollable for width below 600px */
             body {
                 overflow: auto;
-            }
-
-            #box10 {
-                width:100%;                   
             }
                     
             #logo {
