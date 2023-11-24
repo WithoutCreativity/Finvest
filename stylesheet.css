@@ -215,7 +215,7 @@ body {
             margin-left: 17.5vw;
             margin-right: 17.5vw;
             text-align: center;
-            background-image: url('regbg.jfif');
+            background-image: url('assets/images/regbg.jfif');
             background-size: cover;
             background-position: center bottom;
         }
@@ -236,7 +236,7 @@ body {
             margin-top: 6vh;
         }
         #box9 {
-            background-image:url('rvbg.png');
+            background-image:url('assets/images/rvbg.png');
             background-size:cover;
             height:38vh;
             margin-bottom:5vh;
@@ -244,7 +244,7 @@ body {
         }
 
         #box11 {
-            background-image:url('bottom.png');
+            background-image:url('assets/images/bottom.png');
             background-size:cover;
             height:20vh;
         }
@@ -269,7 +269,8 @@ body {
             border-radius: 0.5em;
             padding: 15px 50px;
             letter-spacing: normal;
-            cursor: pointer font-family: 'Segoe UI';
+            cursor: pointer ;
+            font-family: 'Segoe UI';
             font-size: 1.2vw;
             font-style: normal;
             font-weight: 900;
@@ -283,6 +284,7 @@ body {
         @media screen and (max-width: 600px) {
             .box {
                 width: 100%;
+                font-family: Arial-black;
             }
 
             /* Make the body scrollable for width below 600px */
