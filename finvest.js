@@ -185,4 +185,4 @@ function reloadOnResize() {
 }
 
 // Add event listener for window resize
-window.addEventListener('resize', reloadOnResize);
+window.addEventListener('resize', centerChildVertically);
